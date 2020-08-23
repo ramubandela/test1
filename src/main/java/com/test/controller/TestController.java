@@ -36,6 +36,6 @@ public class TestController {
 	@GetMapping("/hi")
 	public String m1(@RequestParam("data") String data) {
 		
-		return "test"+data;
+		return "test 123333"+data;
 	}
 }
